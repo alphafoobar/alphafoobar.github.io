@@ -6,10 +6,12 @@ In order maintain high availability, low risk, low complexity rapid change; my p
 incremental, decoupled releases of sensibly tested, stateless, single responsibility components.
 
 # experience
-java [developer](https://en.wikipedia.org/wiki/Software_developer) and kanban [kaizen](https://en.wikipedia.org/wiki/Kaizen) practitioner on a [single dealer platform](single dealer platform) for a bank
+## java [developer](https://en.wikipedia.org/wiki/Software_developer) and kanban [kaizen](https://en.wikipedia.org/wiki/Kaizen) practitioner on a [single dealer platform](single dealer platform)
+- working with a team in multiple locations and timezones
 
 # skill stack
 - java7, jax-rs, jersey, wildfly, spring
+- concurrency, multi-threading
 - guava collections
 - slf4j, splunk
 - git, bitbucket peer review

@@ -12,7 +12,7 @@ incremental, decoupled releases of sensibly tested, stateless, single responsibi
 # skill stack
 - java7, jax-rs, jersey, wildfly, spring
 - concurrency, multi-threading
-- guava collections
+- guava collections, futures
 - slf4j, splunk
 - git, bitbucket peer review
 - junit4, mockito, hamcrest, grizzly,

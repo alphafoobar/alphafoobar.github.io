@@ -18,6 +18,28 @@ incremental, decoupled releases of sensibly tested, stateless, single responsibi
 - junit4, mockito, hamcrest, grizzly,
 - choncordion, selenium, browserstack
 
+# How do I multi-task to reduce the context shifting overhead
+My goal is to enable multiple tasks to be completed in parallel with minimal context shifting. I prefer
+to work on a single task until it is `development complete`, or even [done](https://www.agilealliance.org/glossary/definition-of-done/).
+
+But there tend to be several different activities that come up in a day:
+- Starting a new development task! (src-1)
+- Incorporating feedback on a pull request to gain peer review approval! (src-2)
+- Peer reviewing a colleagues pull request (src-pr-1)
+- Fixing a bug that was found in manual testing (src-uat)
+- Investigating a production support enquiry (src-prod)
+
+Structuring my directories in this way enables Git to do most of the work.
+
+- [Git](https://en.wikipedia.org/wiki/Git) for distributed source control
+- `workspace` per task, for example separate workspaces for
+  - src-1, src-2, src-qa, src-uat, src-prod, src-misc
+  - allowing segregation of tasks
+- [IntelliJ IDEA](https://www.jetbrains.com/idea/) with a project per `workspace`
+  - all projects required in 
+- vagrant mint linux running with local directory sharing
+  - 
+
 # connection
  - <a href="https://www.linkedin.com/in/jamesalittle"><img src="In-Black-101px-R.png" height="101px"/> Linked</a>
  - <a href="https://github.com/alphafoobar"><img src="GitHub-Mark-120px-plus.png" height="101px"/> GitHub</a>
